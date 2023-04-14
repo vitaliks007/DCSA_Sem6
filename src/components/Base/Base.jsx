@@ -1,13 +1,12 @@
 import React from 'react';
 import classes from './Base.module.css';
+import Dialogs from '../Dialog/Dialogs';
 
-function Base(){
+function Base(props){
     return (
         <section className={ classes.main }>
-            <h1>
-                Hello World!
-            </h1>
-        </section>
+            <Dialogs />
+        </section> 
     );
 }
 export default Base;
